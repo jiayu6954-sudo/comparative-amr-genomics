@@ -40,9 +40,9 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 SPECIES_COLORS = {
-    'Klebsiella pneumoniae':  '#2166AC',
-    'Escherichia coli':       '#D6604D',
-    'Acinetobacter baumannii':'#4DAC26',
+    'Klebsiella pneumoniae':  '#1b9e77',  # ColorBrewer Dark2 — teal
+    'Escherichia coli':       '#d95f02',  # ColorBrewer Dark2 — orange
+    'Acinetobacter baumannii':'#7570b3',  # ColorBrewer Dark2 — purple
 }
 SPECIES_SHORT = {
     'Klebsiella pneumoniae':  'K. pneumoniae',
