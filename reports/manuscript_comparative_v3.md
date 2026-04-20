@@ -135,7 +135,7 @@ We demonstrate a species-specific gradient in IS-mediated composite transposon a
 
 **Conflicts of interest**: The author declares no conflicts of interest.
 
-**Data availability**: All genome assembly accession numbers are publicly available from NCBI GenBank. Analysis code and processed data are deposited at Zenodo (https://doi.org/10.5281/zenodo.NEW; for this comparative AMR dataset). Genome accession lists are provided in Tables S1–S3.
+**Data availability**: All genome assembly accession numbers are publicly available from NCBI GenBank. Analysis code is openly available at https://github.com/jiayu6954-sudo/comparative-amr-genomics (MIT License). Processed results, figures, and the manuscript are additionally deposited at Zenodo (DOI to be assigned upon submission). Genome accession lists are provided in Tables S1–S3.
 
 **Ethics statement**: This study used exclusively publicly available, de-identified genomic sequence data from NCBI GenBank and did not involve human subject participation. No ethics approval was required.
 
