@@ -224,7 +224,7 @@ chrome = 'C:/Program Files/Google/Chrome/Application/chrome.exe'
 |------|-----|------|
 | Genesis ISS项目 | `https://doi.org/10.5281/zenodo.19638104` | ✅ 已发布 |
 | AMR K. pneumoniae项目 | 待申请 | 论文投稿前 |
-| **本跨物种项目** | **待申请（独立记录）** | 用户网页端操作 |
+| **本跨物种项目** | **https://doi.org/10.5281/zenodo.19665193** | ✅ DOI已预留，发布前最后确认 |
 | 统一IS理论 | 与主文同步 | 主文发表后 |
 
 **comparative_amr_project Zenodo元数据（待填写）**:
