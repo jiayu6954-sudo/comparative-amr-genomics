@@ -1,0 +1,26 @@
+# Raw genome data (large binary files)
+data/raw/
+data/db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Secrets / credentials
+.env
+*.env
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (optional — keep if needed for reproducibility)
+# logs/
+
+# Temp files
+*.tmp
+*.bak
