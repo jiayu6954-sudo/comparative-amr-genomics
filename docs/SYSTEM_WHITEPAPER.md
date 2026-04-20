@@ -196,14 +196,49 @@ chrome = 'C:/Program Files/Google/Chrome/Application/chrome.exe'
 | Genesis ISS项目 | `genesis_project/` | 独立；共享pandoc/Chrome PDF方法 |
 | AMR K. pneumoniae项目 | `amr_project/` | 本项目**复用**KPN基因组数据 |
 | 本跨物种项目 | `comparative_amr_project/` | 扩展AMR项目 + 三物种比较 |
+| **统一IS理论** | `unified_is_theory/` | 本项目 + AMR项目 + ISS项目数据**汇总**为Perspective论文 |
+
+---
+
+## 五-A、统一IS理论框架（2026-04-20 新增）
+
+**核心命题**: IS元件密度是"基因组水平基因转移压力计"（Genomic HGT Pressure Gauge）
+
+| 数据来源 | HGT压力端 | IS密度观测 | 来源论文 |
+|---------|----------|----------|---------|
+| ISS表面微生物 | **极低**（封闭/无抗生素/少噬菌体） | 0.115–0.312× terrestrial | Genesis/ISS项目 |
+| 中国临床敏感株 | 中等 | 参考基线（1.0×） | amr_project |
+| 中国临床CRKP/CREC | **极高**（高抗生素压力，HGT密集） | IS6 AUC=0.949；复合转座子94% | comparative + amr项目 |
+
+**统一理论论文**:
+- 路径: `e:/miniconda3/envs/llama-env/unified_is_theory/manuscript_unified_v1.md`
+- 格式: Nature Microbiology Perspective (~2,931词)
+- 图表: `unified_is_theory/figures/fig1_is_pressure_gauge.pdf` + `fig2_is_ecology_panels.pdf`
+- 投稿策略: 两篇主文投稿/预印本后，Perspective并行投稿
 
 ---
 
 ## 六、Zenodo存档计划
 
-- **Genesis ISS项目**: 已存档 `https://doi.org/10.5281/zenodo.19638104` ✅
-- **AMR K. pneumoniae项目**: 待存档
-- **本跨物种项目**: 待存档（论文定稿后新建独立Zenodo记录）
+| 项目 | DOI | 状态 |
+|------|-----|------|
+| Genesis ISS项目 | `https://doi.org/10.5281/zenodo.19638104` | ✅ 已发布 |
+| AMR K. pneumoniae项目 | 待申请 | 论文投稿前 |
+| **本跨物种项目** | **待申请（独立记录）** | 用户网页端操作 |
+| 统一IS理论 | 与主文同步 | 主文发表后 |
+
+**comparative_amr_project Zenodo元数据（待填写）**:
+```
+Title: IS Element Ecology Shapes Divergent Carbapenem Resistance Gene Mobilisation Strategies
+       Across Clinical Gram-Negative Pathogens
+Authors: ZJY
+Description: Analysis code, processed data, and manuscript for three-species comparative
+             genomic study of IS element architecture (926 genomes: KPN/ECO/ABA)
+Keywords: insertion sequences, IS26, carbapenem resistance, K. pneumoniae, E. coli, A. baumannii
+License: MIT
+Related identifiers: https://github.com/jiayu6954-sudo/comparative-amr-genomics
+Upload: figures/*.pdf, reports/manuscript_comparative_v3.pdf, requirements.txt
+```
 
 ---
 

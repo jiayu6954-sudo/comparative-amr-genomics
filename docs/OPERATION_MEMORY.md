@@ -175,14 +175,39 @@ if local_dir.is_dir():
 
 ---
 
-## 七、待完成任务（下一Session）
+## 七、P0修订（2026-04-20 完成）
+
+| 修订项 | 内容 | 状态 |
+|--------|------|------|
+| P0-1 KPN AUC说明 | Results"IS6 burden in K. pneumoniae"节加段落：0.976（代表性队列）vs 0.667（全队列）原因分析 | ✅ |
+| P0-2 ECO Entrez查询细节 | Methods补充4条Entrez查询字符串（NDM/KPC/carbapenem/OXA-48），含去重逻辑 | ✅ |
+| P0-3 色盲安全配色 | `SPECIES_COLORS` → ColorBrewer Dark2 (teal/orange/purple)；原蓝/红/绿不安全 | ✅ |
+| 图表重生成 | fig1-4全部重新生成（300 dpi PDF+PNG） | ✅ |
+| PDF重生成 | manuscript_comparative_v3.pdf → 314 KB | ✅ |
+| GitHub推送 | commit `6f543a8`，已推送 | ✅ |
+
+---
+
+## 八、统一理论项目（2026-04-20 创建）
+
+**统一IS元件理论论文**已新建独立项目：
+- **路径**: `e:/miniconda3/envs/llama-env/unified_is_theory/`
+- **论文**: `manuscript_unified_v1.md`（2,931词，Nature Microbiology Perspective格式）
+- **PDF**: `manuscript_unified_v1.pdf`（207 KB）
+- **图表**: `figures/fig1_is_pressure_gauge.pdf/png` + `figures/fig2_is_ecology_panels.pdf/png`
+- **核心命题**: IS元件密度是"基因组HGT压力计"——在ISS封闭环境中降低0.1–0.3×，在中国临床CRKP中预测耐药AUC=0.949
+- **交叉引用**: 本项目（comparative-amr-genomics） + amr_project（amr-genomics-analysis） + ISS Genesis（zenodo.19638104）
+
+---
+
+## 九、待完成任务（更新）
 
 | 优先级 | 任务 | 状态 |
 |--------|------|------|
-| ✅ P1 | ECO扩充至266 QC通过 | **完成**（28 resistant，10.5%） |
-| ✅ P2 | PFAM PF01527 HMM验证ECO IS6元件 | **完成**（偏差确认，AUC=0.718校正） |
-| ✅ P3 | PFAM ISAba HMM验证ABA元件 | **完成**（无偏差） |
-| ✅ P4 | 重新生成figures + manuscript v3 | **完成**（v3=5,400词+PDF=285KB） |
-| **P5** | Zenodo新建存档 | 待执行（论文投稿前） |
-| **P6** | MLST + 质粒复型分析（可选） | IncX3确认 NDM-5/ECO strains |
-| **P7** | 增大ABA敏感株样本（n=1太少） | 其他物种补充或特殊搜索 |
+| ✅ P0-1~3 | 手稿P0三项修订 | **完成** |
+| ✅ 创意三 | 跨物种IS验证（本项目） | **完成** |
+| ✅ 创意一 | IS元件统一理论论文 | **完成**（draft v1） |
+| **P1** | Zenodo本项目新建存档 | 待用户网页操作 |
+| **P2** | MLST + 质粒复型分析 | IncX3确认 NDM-5/ECO strains |
+| **P3** | 增大ABA敏感株样本（n=1太少） | 其他物种补充或特殊搜索 |
+| **P4** | 统一理论论文投稿bioRxiv | 两篇主文投稿后执行 |

@@ -181,3 +181,30 @@ python analysis/08_convert_to_pdf.py \
 | 复合转座子率偏高 | 分母用分类行数非总AMR位点 | 从amr_hits.tsv取`unique accession`数 |
 | ABA AMR率99.4% | OXA-51为内源标志物 | 分析时区分OXA-51（内源）和OXA-23/24/58/NDM（获得性） |
 | ECO NDM靶向搜索0结果 | NCBI Assembly不按AMR基因名索引 | 扩大通用下载量（800+）替代靶向搜索 |
+
+---
+
+## 统一理论 Perspective — 扩展管道
+
+本项目数据汇入更大的统一IS理论框架：
+
+```
+ISS微生物组（genesis_project）                中国临床CRKP（amr_project + comparative_amr_project）
+IS密度 0.115–0.312× terrestrial     ←────────────────────→     IS6 AUC=0.949，复合转座子率94%
+        │                                                                  │
+        └──────── unified_is_theory/manuscript_unified_v1.md ─────────────┘
+                  "IS元件密度 = 基因组HGT压力计"
+                  目标: Nature Microbiology Perspective / PNAS
+```
+
+**生成统一理论图表**:
+```bash
+cd e:/miniconda3/envs/llama-env/unified_is_theory
+python analysis/fig1_generate.py
+```
+
+**生成统一理论PDF**:
+```bash
+python e:/miniconda3/envs/llama-env/comparative_amr_project/analysis/08_convert_to_pdf.py \
+  --input e:/miniconda3/envs/llama-env/unified_is_theory/manuscript_unified_v1.md
+```
